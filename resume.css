@@ -1,0 +1,67 @@
+body { 
+	font-family: "Verdana", "Tahoma", sans-serif; 
+	color: #e4e4e4;
+	background-color: #800000;
+	background-image: url("http://selab.hanyang.ac.kr/courses/cse326/2015/labs/labResources/cse326bg.png");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+h1, h2 { 
+	color: #9197FF;
+}
+
+h1 {
+	font-size: 3.0em;
+	text-shadow: 2px -2px black;
+}
+
+blockquote {
+	font-size: 80%;
+}
+
+dt, p:first-letter {
+	font-weight: bold;
+}
+
+p:first-letter {
+	font-size: 150%;
+}
+
+a:link {
+	color: #FF8484;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D678FF;
+	text-decoration: underline;
+}
+
+strong {
+	color: #3BE691;
+}
+
+ol, ul, dl {
+	text-align: left;
+}
+
+table, td, th {
+	border: dashed;
+	border-collapse: collapse;
+}
+
+tr:nth-child(2) {
+	background-color: blue;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+
+img { 
+	border: 5px dotted #797979; 
+}
+a img {
+	border: none;
+}
