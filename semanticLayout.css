@@ -1,0 +1,57 @@
+body {
+	margin-right: 15%;
+	margin-left: 15%;
+	background-image: url(http://selab.hanyang.ac.kr/courses/cse326/2015/problems/images/3/blueTextureBG.jpg);
+}
+
+#body {
+	border: 10px solid white;
+	background-color: white;
+}
+
+#profile {
+	background-color: #8E8E8E;
+}
+
+#header {
+	color: white;
+	text-align: center;
+}
+
+#nav {
+	font-size: 14pt;
+	color: #B7B7B7;
+	overflow: hidden;
+}
+
+#nav img {
+	float: right;
+}
+
+.article {
+	border: 4px solid #1D2475;
+	border-radius: 15px;
+	background-color: #CCCCCC;
+	padding: 5px;
+	margin-top: 10px;
+	margin-left: 155px;
+	clear: right;
+}
+
+.section {
+	border-bottom: 2px dashed blue;
+	text-align: right;
+}
+
+#sidebar {
+	border: 4px solid #1D2475;
+	border-radius: 15px;
+	position: relative;
+	background-color: #3366CC;
+	float: left;
+	margin-top: 10px;
+}
+
+body *:hover {
+	background-color: #FFFF00;
+}
